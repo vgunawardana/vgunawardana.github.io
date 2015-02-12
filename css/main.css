@@ -94,7 +94,7 @@ DEFAULT BOX
   text-transform: uppercase;
 }
 .box h2:before{
-  content: '//';
+  
   margin-right: 5px;
 }
 .box p{
@@ -236,7 +236,7 @@ SKILLS
 *******************************************/
 .item-skills{
   height: 30px;
-  background: #F0563D;
+  background: linear-gradient(to right,#737CA1, #fff);
   color: #fff;
   padding: 5px 10px;
   margin-bottom: 5px;
@@ -317,7 +317,7 @@ HOBBIES
   margin-right: 5px;
   margin-bottom: 5px;
   padding: 5px 5px 5px 25px;
-  background: #A75265;
+  background: #98AFC7;
   position: relative;
   font-size: 1.2em;
 }
@@ -330,12 +330,14 @@ HOBBIES
   top: 6px;
   left: 7px;
 }
+
+.ws-width-27{width: 27px;}
 /*******************************************
 MEDIA
 *******************************************/
 @media (min-width: 500px) {
   #education .description{
-    width: 85%;
+    width: 87%;
   }
 }
 @media (min-width: 768px) {
@@ -350,6 +352,6 @@ MEDIA
 }
 @media (min-width: 1200px) {
   #education .description{
-    width: 90%;
+    width: 87%;
   }
 }
